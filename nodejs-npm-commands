@@ -57,3 +57,13 @@ npmのリポジトリを検索する
 $ npm search キーワード
 $ npm s キーワード
 $ npm se キーワード
+
+
+npm install -g express express-generator
+useradd expressuser
+passwd expressuser
+--sample pass: ExpUsr
+
+express testapp
+npm install
+npm start

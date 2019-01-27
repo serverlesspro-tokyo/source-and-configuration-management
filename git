@@ -1,0 +1,15 @@
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+#local init.
+git init
+git add .
+git commit -m "hogehoge"
+
+githubでリモートリポジトリを作成する
+リモートリポジトリのSSHをcopyする
+
+git remote add origin [リモートリポジトリのSSHのcopy]
+git push --set-upstream origin master
+  

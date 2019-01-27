@@ -1,0 +1,59 @@
+公式サイト
+https://npmjs.org/
+
+ヘルプを見る
+$ npm help コマンド
+$ npm --help コマンド
+npmのバージョンを確認する
+$ npm -v
+$ npm -version
+$ npm --version
+package.jsonを生成する
+$ npm init
+パッケージをグローバルにインストールする
+$ sudo npm install -g パッケージ
+$ sudo npm i -g パッケージ
+パッケージをグローバルにまとめてインストールする
+$ sudo npm install -g パッケージ パッケージ ...
+パッケージをグローバルにバージョンを指定してインストールする
+$ npm install -g パッケージ名@x.x.x
+パッケージをプロジェクトにインストールする
+$ npm install パッケージ
+$ npm i パッケージ
+パッケージをグローバルからアンインストールする
+$ sudo npm uninstall -g パッケージ
+$ sudo npm r -g パッケージ
+$ sudo npm remove -g パッケージ
+$ sudo npm rm -g パッケージ
+$ sudo npm un -g パッケージ
+$ sudo npm unlink -g パッケージ
+パッケージをプロジェクトからアンインストールする
+$ npm uninstall パッケージ
+$ npm r パッケージ
+$ npm remove パッケージ
+$ npm rm パッケージ
+$ npm un パッケージ
+$ npm unlink パッケージ
+グローバルにインストールされたパッケージを全て確認する
+$ sudo npm ls -g
+$ sudo npm la -g
+$ sudo npm list -g
+$ sudo npm ll -g
+グローバルにインストールされたパッケージを個別に確認する
+$ sudo npm ls -g パッケージ
+$ sudo npm la -g パッケージ
+$ sudo npm list -g パッケージ
+$ sudo npm ll -g パッケージ
+プロジェクトにインストールされたパッケージを個別に確認する
+$ npm ls -g パッケージ
+$ npm la -g パッケージ
+$ npm list -g パッケージ
+$ npm ll -g パッケージ
+パッケージの情報を見る
+$ npm info パッケージ名
+$ npm view パッケージ名
+$ npm show パッケージ名
+npmのリポジトリを検索する
+$ npm search キーワード
+$ npm s キーワード
+$ npm se キーワード
